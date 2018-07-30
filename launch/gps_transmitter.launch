@@ -1,0 +1,4 @@
+<launch>
+        <node pkg="gps-transmitter" type="gps_transmitter.py" name="gps_transmitter">
+        </node>
+</launch>
