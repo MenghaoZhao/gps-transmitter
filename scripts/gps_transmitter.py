@@ -1,11 +1,7 @@
 #!/usr/bin/env python
 
-import rospy
-from std_msgs.msg import String
 from novatel_msgs.msg import *
-import middleware as mw
-from middleware import Publisher, Subscriber, SmartMixer, Timer, run_handler_async, Duration, FunctionMonitor, \
-    init_node, spin, start_heartbeat
+from middleware import Publisher, Subscriber, init_node, spin, start_heartbeat
 from ts_rpc.client import RemoteObject, find_rpc_service
 import time
 
